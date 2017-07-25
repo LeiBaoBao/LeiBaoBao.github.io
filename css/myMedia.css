@@ -1,0 +1,137 @@
+body{
+
+font-size:62.5%; /* 10÷16=62.5% */
+
+}
+@media screen and (max-width: 450px){
+
+	
+	/*1.背景图*/
+	.bg,.bg-two,.bg-three{
+		/*margin-top: 4rem;*/
+		
+		width: 100%;
+		height: 19rem;
+		background-size:100%;
+		position: relative;
+	}
+	/*2.边框*/
+	.isBorder,.isBorder-two,.isBorder-three{
+	width: 24rem;/*400/1349*768*/
+	height: 12rem;/*465*/
+	border:3px solid #FF5511;
+	box-shadow: 0 0 10px #C63300;
+	}
+	.isBorder,.isBorder-three{
+		position: absolute;
+		top: 3.5rem;
+		left: 50%;
+		margin-left: -12rem;
+	}
+	.isBorder-two{
+		position: absolute;
+		top: 3rem;
+		right: 1rem;
+	}
+
+	/*3.文字*/
+	
+
+	.one,.two,.three{
+		width: 24rem;
+		height: 12rem;
+	}
+	.one,.three{
+		position: absolute;
+		top: 3.5rem;
+		left: 50%;
+		margin-left: -12rem;
+	}
+	.two{
+		position: absolute;
+		top: 3rem;
+		right: 1rem;
+	}
+	/*one*/
+	.aboutMe{
+		width: 100%;
+		height: 12rem;
+		margin:0 auto;
+		padding-top: 2rem;
+	}
+	.imformation,.imfor{
+		margin-top: 0rem;
+		color: #fff;
+		padding: 0;
+	}
+	.one h3,.two h3,.three h3{
+		font-size: 1.6rem;
+		padding: 0;
+		margin: 0.5rem 0;
+	}
+	.three h3{
+		margin:1rem 0;
+	}
+	/*.two h3{
+		font-size: 1.6rem;
+		text-align: center;
+		margin:1rem 0 0 0 ;
+		color: #fff;
+	}
+	.three h3{
+		text-align: center;
+		margin-top:1rem;
+		color: #fff;
+	}*/
+	.imformation li{
+		margin-top: 0.2rem;
+		height: 1rem;
+		line-height: 1rem;
+	}
+	.imfor li{
+		margin-top: 0.2rem;
+		height: 1rem;
+		line-height: 1rem;
+	}
+	/*one*/
+
+	/*two*/
+	
+	.iCan{
+		margin-top: .5rem;
+	}
+	.iCan-two{
+		margin-top: 1rem;
+	}
+	.jQuery{
+		width: 8rem;
+		height: 3rem;
+		margin: 0 auto;
+	}
+	/*two*/
+
+	/*three*/
+	.contact,.num{
+		margin-top: 2rem;
+	}
+
+
+	/*three*/
+
+
+
+
+
+
+
+
+
+
+	/*
+
+		background: url("../img/bg/img1.jpg") 0 0 no-repeat;
+		background: url("../img/bg/img3.jpg") 0 0 no-repeat;
+		background: url("../img/bg/bangWan.jpg") 0 0 no-repeat;
+	*/
+
+}
